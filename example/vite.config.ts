@@ -4,5 +4,8 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  resolve: {
+    dedupe: ['react', 'react-dom'],
+  },
   base: '/react-hooks-search-history/',
 })
