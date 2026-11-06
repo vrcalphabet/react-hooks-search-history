@@ -1,0 +1,41 @@
+{
+  "name": "react-hooks-search-history",
+  "version": "0.1.0",
+  "description": "A React hook for managing search history",
+  "types": "./dist/main.d.mts",
+  "main": "./dist/main.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "format": "prettier --write src",
+    "dev": "tsdown --log-level silent --watch",
+    "build": "tsdown"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "history",
+    "search"
+  ],
+  "homepage": "https://github.com/vrcalphabet/react-hooks-search-history",
+  "bugs": {
+    "url": "https://github.com/vrcalphabet/react-hooks-search-history/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrcalphabet/react-hooks-search-history.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "peerDependencies": {
+    "react": "^19.3.1"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/react": "^19.3.0",
+    "prettier": "^3.9.10",
+    "tsdown": "^0.23.4",
+    "typescript": "^6.0.3"
+  }
+}
